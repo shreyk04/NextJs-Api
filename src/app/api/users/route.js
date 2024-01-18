@@ -1,7 +1,7 @@
-import { user } from "@/util/db";
+import { users } from "@/util/db";
 import {NextResponse} from "next/server"
 export function GET(request){
-    const data=user;
+    const data=users;
     return NextResponse.json(data,{status:200})
 }
 
@@ -15,3 +15,4 @@ export async function POST(request){
 
 
 }
+

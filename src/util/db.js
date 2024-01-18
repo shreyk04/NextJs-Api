@@ -1,4 +1,4 @@
-export const user=[
+export let users=[
     {
         name:'Anil',
         age:29,
@@ -17,4 +17,13 @@ export const user=[
         email:'vaibhya@test.com',
         id:40,
     },
+    {
+        name:'Chaituu',
+        age:20,
+        email:'chaityaaa@test.com',
+        id:50,
+    },
 ]
+export const setUsers=(_users)=>{
+ users=_users;
+}
